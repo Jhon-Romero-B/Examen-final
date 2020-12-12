@@ -15,7 +15,7 @@ function validacion() {
     if (password.value === null || password.value === "") {
         alert("Ingrese su contraseña");
     }
-    if ((email.value == "jaromero374@misena.edu.co") && (password.value == "1234")) {
+    if ((correo.value == "jaromero374@misena.edu.co") && (contraseña.value == "1234")) {
         location.href = "https://unicode-table.com/es/search/?q=cerradura";
     }
     return false;
