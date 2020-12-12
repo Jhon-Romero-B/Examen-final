@@ -1,5 +1,12 @@
-var valor1 = document.getElementById("email").value;
-var valor2 = document.getElementById("password").value;
+function validacion() {}
 
-console.log(valor1)
-console.log(valor2)
+var correo = document.getElementById("email").value;
+var password = document.getElementById("password").value;
+var objeto = {
+    email: "jaromero374@misena.edu.co",
+    password: 1234
+}
+
+if (email.value === null || email.value === "") {
+    alert("Ingrese correo");
+}
