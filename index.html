@@ -9,18 +9,24 @@
 </head>
 
 <body>
-    <form>
+    <form name="form" action="" id="formulario">
         <h2>&#128272; Sign In</h2>
-        <p>E-mail address</p>
-        <input type="text" placeholder="Ingrese su e-mail" name="email" required>
-        <p>Password</p>
-        <input type="password" placeholder="Ingrese su contraseña" name="contraseña" required>
-        <input type="submit" value="Sign In">
+
+        <!--   <p>E-mail address</p> -->
+        <label for="correo">E-mail address</label>
+        <input type="email" name="correo" id="email" placeholder="Ingrese su e-mail">
+
+        <!-- <p>Password</p> -->
+        <label for="contraseña">Password</label>
+        <input type="password" name="contraseña" id="password" placeholder="Ingrese su contraseña">
+
+        <input type="submit" value="Sign In ">
+        <!--       <button onclick="validar() ">Sign In</button> -->
 
     </form>
 
 
-    <script src="index.css"></script>
+    <script src="/index.js "></script>
 </body>
 
 </html>

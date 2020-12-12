@@ -36,7 +36,6 @@ input {
     font-size: 20px;
     border: none;
     background-color: #efefef;
-    color
 }
 
 input[type="submit"] {
@@ -47,10 +46,6 @@ input[type="submit"] {
     margin-bottom: 0;
 }
 
-p {
-    color: #c3c3c3;
-}
-
-input[type="text"] {
-    padding-top: 10px;
+label {
+    color: #b5a19c;
 }
