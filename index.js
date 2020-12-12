@@ -9,4 +9,6 @@ var objeto = {
 
 if (email.value === null || email.value === "") {
     alert("Ingrese correo");
+
+    /*    else if (email.value ==) */
 }
